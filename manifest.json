@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "TT Dark Mode",
+  "version": "0.1.0",
+  "description": "TT Dark Mode",
+
+  "icons": {
+    "16": "16.png",
+    "32": "32.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+
+  "content_scripts": [{
+    "css": ["dark.css"],
+    "matches": ["https://*.techtesters.eu/*"]
+  }]
+}
