@@ -1,5 +1,9 @@
 * {
     border-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    text-shadow: none !important;
 }
 
 p,
@@ -7,6 +11,8 @@ p,
     color: #A9A9A9;
 }
 
+body,
+html,
 .bl-background #stripe {
     background-color: #202124 !important;
 }
@@ -14,6 +20,11 @@ p,
 #content,
 .entry-image {
     background-color: #2c2d30 !important;
+}
+
+h5,
+h6 {
+    color: #808080 !important;
 }
 
 h1,
@@ -29,15 +40,20 @@ h4,
 .page-numbers:active,
 a[rel="category tag"],
 .menu-item,
-.wpdiscuz-front-actions span {
+.wpdiscuz-front-actions span,
+.wc-comment-author,
+.wc-comment-author a,
+.pagination-status,
+.page-numbers,
+.sub-menu>li a {
     color: #eee !important;
 }
 
-h5,
-h6,
-.page-numbers {
-    color: #808080 !important
+.sub-menu>li a:hover,
+.sub-menu>li:hover a {
+    color: #FF7F00 !important;
 }
+
 
 .header-logo>a>img {
     content: url("https://cdn.discordapp.com/attachments/632633042246172701/633679193456246809/New_Project_4.png")
@@ -81,7 +97,8 @@ input[type="submit"] {
     text-shadow: none !important;
 }
 
-#comments textarea {
+#comments textarea,
+.wc-comment-label {
     background-color: #202124 !important;
     border: none !important;
     color: #eee !important;
@@ -89,11 +106,13 @@ input[type="submit"] {
 
 #authorbio {
     background-color: #202124 !important;
+    border-top: 2px solid #FF7F00 !important;
     border: none !important;
     color: #A9A9A9 !important;
 }
 
-#author-title h3 {
+#author-title h3,
+.sub-menu>li {
     background-color: #2c2d30 !important;
     border: none !important;
     color: #eee !important;
@@ -114,6 +133,16 @@ select,
     color: #FF7F00 !important;
 }
 
-.bbcode-image {
+img[src="https://www.techtesters.eu/pic/00MENU/line2.png"] {
     content: url("https://cdn.discordapp.com/attachments/632633042246172701/633687628851576854/line2.png");
+}
+
+.wc-comment-right {
+    background-color: #202124 !important;
+    border: none !important;
+    color: #eee !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    text-shadow: none !important;
 }
